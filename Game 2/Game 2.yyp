@@ -2,10 +2,13 @@
   "resources": [
     {"id":{"name":"Sprite_Wall","path":"sprites/Sprite_Wall/Sprite_Wall.yy",},"order":15,},
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"order":0,},
+    {"id":{"name":"Room5","path":"rooms/Room5/Room5.yy",},"order":4,},
     {"id":{"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":3,},
+    {"id":{"name":"Room6","path":"rooms/Room6/Room6.yy",},"order":5,},
     {"id":{"name":"Sprite_Ball","path":"sprites/Sprite_Ball/Sprite_Ball.yy",},"order":0,},
+    {"id":{"name":"obj_portal","path":"objects/obj_portal/obj_portal.yy",},"order":6,},
     {"id":{"name":"SND_Beep","path":"sounds/SND_Beep/SND_Beep.yy",},"order":0,},
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},"order":17,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":16,},
@@ -28,6 +31,8 @@
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
+    {"roomId":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
+    {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
