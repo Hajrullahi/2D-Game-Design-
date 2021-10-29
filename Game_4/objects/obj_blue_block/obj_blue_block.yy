@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "Sprite_Ball",
-    "path": "sprites/Sprite_Ball/Sprite_Ball.yy",
+    "name": "spr_blue_block",
+    "path": "sprites/spr_blue_block/spr_blue_block.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_block_parent",
+    "path": "objects/obj_block_parent/obj_block_parent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,18 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":1,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Blocks",
+    "path": "folders/Objects/Blocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ball",
+  "name": "obj_blue_block",
   "tags": [],
   "resourceType": "GMObject",
 }
